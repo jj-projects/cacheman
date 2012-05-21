@@ -4,27 +4,27 @@
 
 This java application changes Groundworks cache gpx files as follows:
  * adds comment field including Terrain, Difficulty and alike to get this information into an etrex Vista
- 
-  * Sample for cmt element:
 
-   <cmt>TC-CU-D1.5-T1</cmt>
 
 ####Description:
 
-TC = Traditional Cache
-MC = Multi-Cache
-VC = Virtual Cache
+  * Sample for cmt element:
+   * <cmt>TC-CU-D1.5-T1</cmt>
+
+ * TC = Traditional Cache
+ * MC = Multi-Cache
+ * VC = Virtual Cache
 
 
-CU = Container Unknown
-CM = Container Micro
-CS = Container Small
-CR = Container Regular
-CL = Container Large
+ * CU = Container Unknown
+ * CM = Container Micro
+ * CS = Container Small
+ * CR = Container Regular
+ * CL = Container Large
 
-D<num> = Difficulty <Zahl>
-
-T<num> = Terrain <Zahl>
+ * D<num> = Difficulty <Zahl>
+ 
+ * T<num> = Terrain <Zahl>
 
 
 

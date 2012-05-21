@@ -1,22 +1,41 @@
-# filelister		
+# cacheman		
 
 ## Description
 
-This java application iterates through a directory structure starting at a given directory in the UI.
-It provides special output for some details of mp3 files.
+This java application changes Groundworks cache gpx files as follows:
+ * adds comment field including Terrain, Difficulty and alike to get this information into an etrex Vista
+ 
+  * Sample for cmt element:
 
-### Purpose:
+   <cmt>TC-CU-D1.5-T1</cmt>
 
-It is ment to generate a list of mp3 files contained in a directory to keep the knowledge about titels being sampled from a audio CD into a folder.
+####Description:
+
+TC = Traditional Cache
+MC = Multi-Cache
+VC = Virtual Cache
+
+
+CU = Container Unknown
+CM = Container Micro
+CS = Container Small
+CR = Container Regular
+CL = Container Large
+
+D<num> = Difficulty <Zahl>
+
+T<num> = Terrain <Zahl>
+
+
 
 ## Ant Build
 
 On project level execute:
-	ant -buildfile build/build.xml -propertyfile build/build_FileLister.properties run
+	ant -buildfile build/build.xml run
 	
 ## Usage
 
-java -classpath FileLister.jar de.jjprojects.filelister.FileLister
+java -classpath cacheman.jar de.jjprojects.cacheman.cacheman
 
 ## Author
 

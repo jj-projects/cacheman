@@ -30,8 +30,10 @@ This java application changes Groundworks cache gpx files as follows:
 
 ## Ant Build
 
-On project level execute:
-	ant -buildfile build/build.xml run
+ - On project level execute for building the jar file:
+	- ant -buildfile build/build.xml jar
+ - On project level execute for building the javadoc documentation:
+	- ant -buildfile build/build.xml doc
 	
 ## Usage
 
